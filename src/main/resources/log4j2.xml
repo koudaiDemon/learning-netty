@@ -5,7 +5,7 @@
         <!--设置在控制台打印日志-->
         <Console name="Console" target="SYSTEM_OUT">
             <!--设置输出格式-->
-            <PatternLayout pattern="[%-5p]:%d{yyyy-MM-dd HH:mm:ss,SSS} [%t] %c:%L - %msg%n" />
+            <PatternLayout pattern="[%-5p]:%d{yyyy-MM-dd HH:mm:ss,SSS} [%t] %c:%L - %msg%n %ex" />
         </Console>
     </Appenders>
 
